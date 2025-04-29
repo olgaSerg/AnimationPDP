@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnViewAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Animation (TranslateAnimation)" />
+
+        <Button
+            android:id="@+id/btnPropertyAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Property Animation (ObjectAnimator)" />
+
+        <Button
+            android:id="@+id/btnViewPropertyAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ViewPropertyAnimator" />
+
+        <Button
+            android:id="@+id/btnAnimatorSet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AnimatorSet" />
+
+        <Button
+            android:id="@+id/btnConstraintSetAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ConstraintSet Animation" />
+
+        <Button
+            android:id="@+id/btnMotionLayoutAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MotionLayout Animation" />
+
+        <Button
+            android:id="@+id/btnDrawableAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Drawable Animation" />
+
+        <Button
+            android:id="@+id/btnLottieAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lottie Animation" />
+
+    </LinearLayout>
+</ScrollView>
